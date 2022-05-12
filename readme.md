@@ -25,3 +25,17 @@
 
 #### Give a name of every selected groups
 `(?<countryCode>\+\d{2})?[ ]?\(?(?<areaCode>\d{3})\)?[ -]?(?<mainNumber>\d{3})[ -]?(?<mainNumber2>\d{3})`
+
+----
+
+### Demo Dataset
+
+| Dates |
+| --- |
+14/02/2022
+14-02-2022
+14.02.2022
+14.02.22
+
+#### Get year info from Dates
+`.?[\/\-.](\d{2,4})$`
